@@ -4,6 +4,8 @@ def sum_to_n(n):
         total += i
     return total
 
-# Example
-n = 10
+# Take number from user
+n = int(input("Enter a number: "))
+
+# Calculate and print result
 print("Sum of first", n, "numbers is:", sum_to_n(n))
